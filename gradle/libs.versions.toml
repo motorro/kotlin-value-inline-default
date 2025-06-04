@@ -1,0 +1,10 @@
+[versions]
+kotlin = "2.1.21"
+junit = "4.13.2"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version.ref = "kotlin" }
+
+[plugins]
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
